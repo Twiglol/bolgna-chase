@@ -1,0 +1,5 @@
+let sal_fisher = sprites.create(assets.image`sal Fisher - mask on`, SpriteKind.Player)
+sal_fisher.setPosition(73, 73)
+controller.moveSprite(sal_fisher)
+scene.setBackgroundImage(assets.image`Addison apartments - floor 1`)
+music.play(music.stringPlayable("B A B F B A B D ", 73), music.PlaybackMode.LoopingInBackground)
